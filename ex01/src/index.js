@@ -40,7 +40,7 @@ function input(c){
 function shiftBtn(){
     if(shiftCheck == 0){
         shiftCheck = 1;
-        btnShift.style.backgroundColor = "#00FF00";
+        btnShift.style.backgroundColor = "#ffb703";
     }else{
         shiftCheck = 0;
         btnShift.style.backgroundColor = "#000000"
@@ -52,7 +52,7 @@ function shiftBtn(){
 function capsBtn(){
     if(capsCheck == 0){
         capsCheck = 1; 
-        btnCaps.style.backgroundColor = "#00FF00";
+        btnCaps.style.backgroundColor = "#ffb703";
     }else{
         capsCheck = 0; 
         btnCaps.style.backgroundColor = "#000000";
